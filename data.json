@@ -1,0 +1,42 @@
+//26/08/2019
+{
+    "date":"26/08/2019",
+  "startTime":"12:00",
+  "endTime":"16:00",
+  "title": "Credenciamento",
+  "description": "",
+  "speaker": "",
+  "image": "",
+  "type": "outros"
+}
+/*
+{
+    "date":"26/08/2019",
+  "startTime":"18:00",
+  "endTime":"19:00",
+  "title": "Abertura",
+  "description": "",
+  "speaker": "",
+  "image": "",
+  "type": "outros"
+}
+{
+    "date":"26/08/2019",
+  "startTime":"19:00",
+  "endTime":"20:30",
+  "title": "4G, LTE-A e a caminhada para o 5G",
+  "description": "",
+  "speaker": "Itagildo Edmar Garbazza",
+  "image": "images/itagildo",
+  "type": "palestra"
+}
+{
+    "date":"26/08/2019",
+  "startTime":"20:30",
+  "endTime":"22:00",
+  "title": "F(x) é Exponencial: A Trajetória de Programadores Acadêmicos",
+  "description": "",
+  "speaker": "Moisés Henrique Ramos Pereira",
+  "image": "images/moises",
+  "type": "palestra"
+}*/
