@@ -5,7 +5,9 @@ import { CreateEventDto } from './create-event.dto';
 
 @Injectable()
 export class EventService {
-  constructor(@Inject('EVENT_MODEL') private readonly eventModel: Model<Event>) { }
+  constructor(
+    @Inject('EVENT_MODEL') private readonly eventModel: Model<Event>,
+  ) {}
 
   async create(data: CreateEventDto): Promise<Event> {
     const user = new this.eventModel(data);
@@ -14,5 +16,9 @@ export class EventService {
 
   async findAll(): Promise<Event[]> {
     return await this.eventModel.find().exec();
+  }
+
+  async findById(id): Promise<Event> {
+    return await this.eventModel.findById(id).exec();
   }
 }

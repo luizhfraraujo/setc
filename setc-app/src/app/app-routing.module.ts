@@ -1,15 +1,18 @@
-import { NgModule } from '@angular/core';
-import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { NgModule } from "@angular/core";
+import { PreloadAllModules, RouterModule, Routes } from "@angular/router";
 
 const routes: Routes = [
   {
-    path: '',
-    loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
+    path: "",
+    loadChildren: () => import("./tabs/tabs.module").then(m => m.TabsPageModule)
   },
   {
-    path: 'event-details',
-    loadChildren: () => import('./pages/event-details/event-details.module').then(m => m.EventDetailsPageModule)
-  },
+    path: "event-details/:id",
+    loadChildren: () =>
+      import("./pages/event-details/event-details.module").then(
+        m => m.EventDetailsPageModule
+      )
+  }
 ];
 @NgModule({
   imports: [
@@ -17,4 +20,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

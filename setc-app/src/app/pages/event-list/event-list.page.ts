@@ -1,28 +1,40 @@
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
-import { EventModel } from 'src/app/models/event.model';
+import { Component, OnInit } from "@angular/core";
+import { Router } from "@angular/router";
+import { EventModel } from "src/app/models/event.model";
+import { EventService } from "../../services/event.service";
+import { IonItemSliding, ToastController } from "@ionic/angular";
+import { EventUtil } from "../../utils/event.util";
 
 @Component({
-  selector: 'app-event-list',
-  templateUrl: './event-list.page.html',
-  styleUrls: ['./event-list.page.scss'],
+  selector: "app-event-list",
+  templateUrl: "./event-list.page.html",
+  styleUrls: ["./event-list.page.scss"]
 })
 export class EventListPage implements OnInit {
   events: EventModel[] = [];
-  constructor(private router: Router) { }
+  constructor(
+    private toastController: ToastController,
+    private eventService: EventService,
+    private router: Router
+  ) {}
 
   ngOnInit() {
-    var event = new EventModel();
-    event.id = "1";
-    event.description = "Teste";
-    event.image = "";
-    event.speaker = "Teste Speaker";
-    event.description = "Teste Description";
-    this.events.push(event);
+    this.eventService.getEvents().subscribe((data: any) => {
+      this.events = data;
+    });
   }
 
-  goToDetails() {
-    this.router.navigateByUrl("/event-details")
+  goToDetails(id) {
+    this.router.navigate(["/event-details", id]);
   }
 
+  async favoriteEvent(event, slidingItem: IonItemSliding) {
+    slidingItem.close();
+    EventUtil.add(event);
+    const toast = await this.toastController.create({
+      message: "Evento adicionado aos favoritos",
+      duration: 2000
+    });
+    toast.present();
+  }
 }

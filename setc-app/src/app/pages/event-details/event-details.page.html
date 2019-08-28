@@ -4,31 +4,26 @@
       <ion-back-button></ion-back-button>
     </ion-buttons>
 
-    <ion-title>event-details</ion-title>
+    <ion-title>{{event.title}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-card class="welcome-card">
-    <img src="/assets/images/luizaraujo.jpg" alt="" />
+    <img *ngIf="event.image" src="/assets/images/{{ event.image }}" alt="" />
     <ion-card-header>
-      <ion-card-subtitle>Luiz Henrique de Freitas Rodrigues Araújo</ion-card-subtitle>
-      <ion-card-title>Consumindo API Rest com Angular/Ionic</ion-card-title>
+      <ion-card-subtitle>{{ event.speaker }}</ion-card-subtitle>
+      <ion-card-title>{{ event.title }}</ion-card-title>
     </ion-card-header>
     <ion-card-content>
-      <p>Criação de uma API REST simples utilizando NodeJS como backend, armazenando os dados em um banco de dados NoSQL
-        (Mongo). Em seguida, vamos criar um aplicativo mobile utilizando o framework Ionic, tendo como base o Angular,
-        que irá acessar e exibir as informações da nossa API criada. O palestrante é Arquiteto de Sistemas na empresa
-        LinkedBy e entusiasta de novas tecnologias. Trabalho hoje dando manutenção e desenvolvendo novas integrações no
-        sistema de Business Intelligence, sistema este que atende em torno de 400 empresas do ramo de bebidas e
-        distribuição, como grupo Heineken, Solar (Coca Cola), Grupo Petrópolis (Itaipava).</p>
-        <br/>
-      <ion-button expand="block">
+      <p>
+        {{ event.description }}
+      </p>
+      <br />
+      <!-- <ion-button expand="block">
         <ion-icon slot="start" name="star"></ion-icon>
         Adicionar aos Favoritos
-      </ion-button>
+      </ion-button> -->
     </ion-card-content>
   </ion-card>
-
-
 </ion-content>

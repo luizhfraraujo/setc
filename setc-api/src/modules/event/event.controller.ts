@@ -1,15 +1,28 @@
-import { Controller, Get, Post, Body, HttpException, HttpStatus } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Post,
+  Body,
+  HttpException,
+  HttpStatus,
+  Param,
+} from '@nestjs/common';
 import { EventService } from './event.service';
 import { CreateEventDto } from './create-event.dto';
 import { ResultDto } from './result.dto';
 
 @Controller('events')
 export class EventController {
-  constructor(private readonly eventService: EventService) { }
+  constructor(private readonly eventService: EventService) {}
 
   @Get()
   findAll() {
     return this.eventService.findAll();
+  }
+
+  @Get(':id')
+  findById(@Param('id') id) {
+    return this.eventService.findById(id);
   }
 
   @Post()

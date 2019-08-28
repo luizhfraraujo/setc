@@ -1,16 +1,70 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Eventos</ion-title>
+    <ion-title>SETC</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-item *ngFor="let event of events" (click)="goToDetails(event)">
-      <ion-label>
-        <p>{{event.title}}</p>
-        <p>Data</p>
+  <ion-list lines="none">
+    <ion-item-sliding *ngFor="let event of events" #slidingItem>
+      <ion-item (click)="goToDetails(event._id)">
+        <ion-label *ngIf="event.type == 'palestra'">
+          <p style="color: blue">
+            <b>{{ event.title }}</b>
+          </p>
+          <p>{{ event.date }} : {{ event.startTime }} - {{ event.endTime }}</p>
+        </ion-label>
+        <ion-label *ngIf="event.type == 'outros'">
+          <p style="color:saddlebrown">
+            <b>{{ event.title }}</b>
+          </p>
+          <p>{{ event.date }} : {{ event.startTime }} - {{ event.endTime }}</p>
+        </ion-label>
+        <ion-label *ngIf="event.type == 'minicurso'">
+          <p style="color:sandybrown">
+            <b>{{ event.title }}</b>
+          </p>
+          <p>{{ event.date }} : {{ event.startTime }} - {{ event.endTime }}</p>
+        </ion-label>
+        <ion-label *ngIf="event.type == 'campeonato'">
+          <p style="color: green">
+            <b>{{ event.title }}</b>
+          </p>
+          <p>{{ event.date }} : {{ event.startTime }} - {{ event.endTime }}</p>
+        </ion-label>
+      </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option (click)="favoriteEvent(event, slidingItem)"
+          >Favoritar</ion-item-option
+        >
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <!-- <ion-item *ngFor="let event of events" (click)="goToDetails(event._id)">
+      <ion-label *ngIf="event.type == 'palestra'">
+        <p style="color: blue">
+          <b>{{ event.title }}</b>
+        </p>
+        <p>{{ event.date }} : {{ event.startTime }} - {{ event.endTime }}</p>
       </ion-label>
-    </ion-item>
+      <ion-label *ngIf="event.type == 'outros'">
+        <p style="color:saddlebrown">
+          <b>{{ event.title }}</b>
+        </p>
+        <p>{{ event.date }} : {{ event.startTime }} - {{ event.endTime }}</p>
+      </ion-label>
+      <ion-label *ngIf="event.type == 'minicurso'">
+        <p style="color:sandybrown">
+          <b>{{ event.title }}</b>
+        </p>
+        <p>{{ event.date }} : {{ event.startTime }} - {{ event.endTime }}</p>
+      </ion-label>
+      <ion-label *ngIf="event.type == 'campeonato'">
+        <p style="color: green">
+          <b>{{ event.title }}</b>
+        </p>
+        <p>{{ event.date }} : {{ event.startTime }} - {{ event.endTime }}</p>
+      </ion-label>
+    </ion-item> -->
   </ion-list>
 </ion-content>
