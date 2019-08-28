@@ -1,0 +1,7 @@
+{
+  "name": "setc-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

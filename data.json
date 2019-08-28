@@ -1,42 +1,341 @@
-//26/08/2019
-{
-    "date":"26/08/2019",
-  "startTime":"12:00",
-  "endTime":"16:00",
-  "title": "Credenciamento",
-  "description": "",
-  "speaker": "",
-  "image": "",
-  "type": "outros"
-}
-/*
-{
-    "date":"26/08/2019",
-  "startTime":"18:00",
-  "endTime":"19:00",
-  "title": "Abertura",
-  "description": "",
-  "speaker": "",
-  "image": "",
-  "type": "outros"
-}
-{
-    "date":"26/08/2019",
-  "startTime":"19:00",
-  "endTime":"20:30",
-  "title": "4G, LTE-A e a caminhada para o 5G",
-  "description": "",
-  "speaker": "Itagildo Edmar Garbazza",
-  "image": "images/itagildo",
-  "type": "palestra"
-}
-{
-    "date":"26/08/2019",
-  "startTime":"20:30",
-  "endTime":"22:00",
-  "title": "F(x) é Exponencial: A Trajetória de Programadores Acadêmicos",
-  "description": "",
-  "speaker": "Moisés Henrique Ramos Pereira",
-  "image": "images/moises",
-  "type": "palestra"
-}*/
+[{
+    "date": "26/08/2019",
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "title": "Credenciamento",
+    "description": "",
+    "speaker": "",
+    "image": "",
+    "type": "outros"
+  },
+  {
+    "date": "26/08/2019",
+    "startTime": "18:00",
+    "endTime": "19:00",
+    "title": "Abertura",
+    "description": "",
+    "speaker": "",
+    "image": "",
+    "type": "outros"
+  },
+  {
+    "date": "26/08/2019",
+    "startTime": "19:00",
+    "endTime": "20:30",
+    "title": "4G, LTE-A e a caminhada para o 5G",
+    "description": "",
+    "speaker": "Itagildo Edmar Garbazza",
+    "image": "itagildogarbazza.jpg",
+    "type": "palestra"
+  },
+  {
+    "date": "26/08/2019",
+    "startTime": "20:30",
+    "endTime": "22:00",
+    "title": "F(x) é Exponencial: A Trajetória de Programadores Acadêmicos",
+    "description": "",
+    "speaker": "Moisés Henrique Ramos Pereira",
+    "image": "moiseshenrique.jpeg",
+    "type": "palestra"
+  },
+  {
+    "date": "27/08/2019",
+    "startTime": "07:00",
+    "endTime": "11:00",
+    "title": "Campeonato Counter Strike: GO",
+    "description": "",
+    "speaker": "",
+    "image": "csgo.jpeg",
+    "type": "campeonato"
+  },
+  {
+    "date": "27/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "React",
+    "description": "O desenvolvimento de sistemas e aplicativos está em constante evolução, e nesse minicurso desejá-se abordar a utilização de componentes do React, uma biblioteca JavaScript declarativa, eficiente e flexível para a criação de interfaces de usuário (UI).",
+    "speaker": "André Laurentino Rodrigues",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "27/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Introdução à Programação Linear com Softwares Gratuitos",
+    "description": "A Programação Linear é uma das técnicas mais utilizadas na Pesquisa Operacional para solução de problemas de otimização com apenas um objetivo, maximizar ou minimizar algo. Um problema de programação linear pode ser resolvido graficamente, algebricamente ou computacionalmente, dependendo do número de variáveis e restrições envolvidas. Neste curso, o participante terá contato com ferramentas gratuitas que permitem resolver problemas desta natureza com o auxílio do computador.",
+    "speaker": "Gabriel da Silva",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "27/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Desenvolvimento de Website",
+    "description": "O desenvolvimento de sistemas e aplicativos está em constante evolução, e nesse minicurso desejá-se que os alunos consigam desenvolver um Website com a utilização de Bootstrap 4, CSS 3, HTML 5, dentre outras. Com o Bootstrap, o profissional já não tem mais que perder tanto tempo digitando toda uma linha de CSS novamente, possui inumeras bibliotecas prontas.",
+    "speaker": "Júlio Cézar Coutinho de Oliveira",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "27/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Arduino Básico",
+    "description": "O curso abordará conceitos básicos para aprendizagem Arduino, uma placa composta por um microcontrolador Atmel, circuitos de entrada/saída e que pode ser facilmente conectada à um computador e programada via IDE (Integrated Development Environment, ou Ambiente de Desenvolvimento Integrado) utilizando uma linguagem baseada em C/C++, sem a necessidade de equipamentos extras além de um cabo USB. É necessário computador pessoal.",
+    "speaker": "Ítalo Silva Gomes",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "27/08/2019",
+    "startTime": "19:00",
+    "endTime": "20:30",
+    "title": "Perspectivas da Energia Fotovoltaica no Brasil",
+    "description": "Apresentar conceitos de Tecnologia Fotovoltaica e empregabilidade nos próximos anos na área. O palestrante é Engenheiro Eletricista pelo Centro Federal de Educação Tecnológica de Minas Gerias - CEFET/MG (2006 ). Mestre em Administração pela Fundação Mineira de Cultura - FUMEC- Linha de Pesquisa : Gestão Estratégica de Organizações ( 2012 - Tema: Gestão Energética Municipal ). Técnico em Eletromecânica pelo CEFET-MG ( 1992 ). Experiência profissional na Americam Beverage Company( AMBEV ), Oi Telecom, Siemens, Cemig. Presidente da Comissão de Eficiência Energética do IFMG. É membro do Comitê Nacional de Eficiência Energética e Energias Renováveis junto ao MEC.",
+    "speaker": "Charles Martins Diniz",
+    "image": "charlesdiniz.jpg",
+    "type": "palestra"
+  },
+  {
+    "date": "27/08/2019",
+    "startTime": "20:30",
+    "endTime": "22:00",
+    "title": "Internet das Coisas e Aplicações",
+    "description": "O Que é IOT? Desafios da Tecnologia, Big Data, IOT na industria e na sociedade 5.0. O palestrante é Desenvolvedor Web Vue.js; Estudante de Engenharia de Produção - IFMG Campus Bambuí; e Estudante de Tecnólogo Internet of Things(IOT) - Universidade de Franca EAD.",
+    "speaker": "Alberto Fernandes",
+    "image": "albertofernandes.jpeg",
+    "type": "palestra"
+  },
+  {
+    "date": "28/08/2019",
+    "startTime": "07:00",
+    "endTime": "11:00",
+    "title": "Campeonato Counter Strike: GO",
+    "description": "",
+    "speaker": "",
+    "image": "csgo.jpeg",
+    "type": "campeonato"
+  },
+  {
+    "date": "28/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Introdução à Programação Linear com Softwares Gratuitos",
+    "description": "A Programação Linear é uma das técnicas mais utilizadas na Pesquisa Operacional para solução de problemas de otimização com apenas um objetivo, maximizar ou minimizar algo. Um problema de programação linear pode ser resolvido graficamente, algebricamente ou computacionalmente, dependendo do número de variáveis e restrições envolvidas. Neste curso, o participante terá contato com ferramentas gratuitas que permitem resolver problemas desta natureza com o auxílio do computador.",
+    "speaker": "Gabriel da Silva",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "28/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Desenvolvimento de Website",
+    "description": "O desenvolvimento de sistemas e aplicativos está em constante evolução, e nesse minicurso desejá-se que os alunos consigam desenvolver um Website com a utilização de Bootstrap 4, CSS 3, HTML 5, dentre outras. Com o Bootstrap, o profissional já não tem mais que perder tanto tempo digitando toda uma linha de CSS novamente, possui inumeras bibliotecas prontas.",
+    "speaker": "Júlio Cézar Coutinho de Oliveira",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "28/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Escrevendo Artigos Científicos com LaTeX",
+    "description": "O minicurso terá um introdução e prática de LaTeX, um sistema de preparação de documentos, com foco na escrita de artigos científicos.",
+    "speaker": "Marcos Roberto Ribeiro",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "28/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Desenvolvimento de jogos com Unity",
+    "description": "O minicurso dará os conhecimentos básicos sobre a plataforma de desenvolvimento de jogos Unity incluindo configurações e funcionalidades. Além disso os participantes desenvolverão um mini jogo em 3D.",
+    "speaker": "Diogo Xavier de Noronha",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "28/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Análise Técnica e Indicadores Financeiros",
+    "description": "Minicurso de Análise Técnica, voltado para o estudo de indicadores financeiros em gráficos dos mercados à vista e de futuros da B3 S.A. Abordará os conceitos de análise gráfica tradicional (candle patterns, suportes e resistências) e os indicadores mais comuns (OBV, MACD, Bandas de Bollinger, Médias Móveis Simples e Exponenciais, HiLo Activator, Aroon Oscillator, Stochastic Oscillator, ATR, IFR, etc.) para análise de mercado.",
+    "speaker": "Samuel Pereira Dias",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "28/08/2019",
+    "startTime": "19:00",
+    "endTime": "20:30",
+    "title": "Conseguirei emprego no mundo dominado pela Inteligência Artificial e pela robotização?",
+    "description": "Parece filme de ficção científica, mas não é... Estudiosos apontam que a humanidade está prestes a entrar em uma era na qual a substituição das pessoas pela tecnologia acontecerá de forma tão profunda e irreversível que acabará sem piedade com diversas profissões (e vidas). Mas até que ponto essa situação parece apenas uma previsão (quase) apocalítica? Ou será que existem evidências que deveriam nos deixar preocupados? O palestrante possui graduação em Tecnologia em Informática pelo Centro Universitário Newton Paiva (2004), Especialização em Engenharia de Software pela UFLA (2010), MBA em Gerenciamento de Projetos pela Faculdade Pitágoras (2013) e Mestrado em Administração pela Universidade FUMEC (2007). Atualmente é Professor do Instituto Federal de Minas Gerais no Campus Bambuí.",
+    "speaker": "Eduardo Cardoso Melo",
+    "image": "eduardomelo.png",
+    "type": "palestra"
+  },
+  {
+    "date": "28/08/2019",
+    "startTime": "20:30",
+    "endTime": "22:00",
+    "title": "Consumindo API Rest com Angular/Ionic",
+    "description": "Criação de uma API REST simples utilizando NodeJS como backend, armazenando os dados em um banco de dados NoSQL (Mongo). Em seguida, vamos criar um aplicativo mobile utilizando o framework Ionic, tendo como base o Angular, que irá acessar e exibir as informações da nossa API criada. O palestrante é Arquiteto de Sistemas na empresa LinkedBy e entusiasta de novas tecnologias. Trabalho hoje dando manutenção e desenvolvendo novas integrações no sistema de Business Intelligence, sistema este que atende em torno de 400 empresas do ramo de bebidas e distribuição, como grupo Heineken, Solar (Coca Cola), Grupo Petrópolis (Itaipava).",
+    "speaker": "Luiz Henrique de Freitas Rodrigues Araújo",
+    "image": "luizaraujo.jpg",
+    "type": "palestra"
+  },
+  {
+    "date": "29/08/2019",
+    "startTime": "07:00",
+    "endTime": "11:00",
+    "title": "Campeonato Counter Strike: GO",
+    "description": "",
+    "speaker": "",
+    "image": "csgo.jpeg",
+    "type": "campeonato"
+  },
+  {
+    "date": "29/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Arduíno Avançado",
+    "description": "O curso abordará funções avançados e montagens do Arduino, uma placa composta por um microcontrolador Atmel, circuitos de entrada/saída e que pode ser facilmente conectada à um computador e programada via IDE (Integrated Development Environment, ou Ambiente de Desenvolvimento Integrado) utilizando uma linguagem baseada em C/C++, sem a necessidade de equipamentos extras além de um cabo USB. É necessário computador pessoal.",
+    "speaker": "Luiz Cesar de Moura Silva",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "29/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Monitoramento de Ativos de Rede com Zabbix",
+    "description": "Minicurso de monitoramento de Ativos de Rede utilizando arquitetura Zabbix, que possui flexibilidade dos módulos que permitem que a ferramenta seja utilizada para o monitoramento convencional (on/off), acompanhamento de desempenho de aplicações, análise de experiência de usuário e análise de causa raiz em ambientes complexos.",
+    "speaker": "Oberdan Junior de Morais",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "29/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Uso do Git para Controle de Versões",
+    "description": "Apresentar os principais comandos do Git e um Git Workflow que estabelece práticas para uso de Git de uma maneira consistente e produtiva. Git é um sistema de controle de versão de arquivos. Através deles podemos desenvolver projetos na qual diversas pessoas podem contribuir simultaneamente no mesmo, editando e criando novos arquivos.",
+    "speaker": "Rosklin Juliano Chagas",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "29/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Como criar um Robô Investidor",
+    "description": "Minicurso elaborado com o fim de auxiliar na criação de robôs de cruzamento de médias móveis. Nele dispõe-se sintaxes da linguagem MQL5 e a criação de um robô trader, também chamado de robô investidor. Um robô investidor é um código implementado em alguma linguagem de programação, que recebe e processa os dados do mercado conforme regras pré-estabelecidas, respeitando cenários, indicadores, condições de entrada e saída e outros critérios usados para investir.",
+    "speaker": "Júlio Cézar Coutinho de Oliveira",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "29/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Manutenção de computadores e equipamentos elétricos",
+    "description": "Aula explicativa sobre manutenção de computadores (manutenção corretiva e preventiva). Realização de algumas manutenções básicas em computadores, explicações sobre equipamentos elétricos, elétrica residencial e predial. Necessário computador pessoal.",
+    "speaker": "Cristian Vidal Coelho Alves",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "29/08/2019",
+    "startTime": "19:00",
+    "endTime": "20:30",
+    "title": "O mercado de computação: visão e trajetória de um egresso do curso de Análise e Desenvolvimento de Sistemas do IFMG-Campus Bambuí",
+    "description": "Compartilhar um pouco da trajetória, detalhes do mercado de consultoria de Banco de Dados, projetos e dicas importantes para os alunos, alertando-os sobre pontos importantes para ingressarem no mercado. O palestrante é Analista de Sistemas formado pelo IFMG - Instituto Federal de Minas Gerais e Técnico em Indústria Eletrotécnica e Automação formado pelo CEPROSUL (CEFET - MG). Possui conhecimento e experiência técnica e funcional ORACLE envolvendo tecnologias: Fusion Middleware, Frameworks, SOA Suite, Business Inteligence, Soluções Oracle Cloud e NFe (Nota Fiscal Eletrônica). Possui experiência na implantação de processos de software e padrões de projetos. Atualmente, Software Factory Manager ORACLE junto à TRI CS DO BRASIL.",
+    "speaker": "Júnio Vitor de Paula",
+    "image": "juniopaula.png",
+    "type": "minicurso"
+  },
+  {
+    "date": "29/08/2019",
+    "startTime": "20:30",
+    "endTime": "22:00",
+    "title": "Power BI: breve introdução a ferramenta",
+    "description": "Apresentar o conceito de Bi e alguns casos e mostrar a ferramenta em execução. O palestrante é Mestre em Educação pela UNIVAS (2018). Especialista em Engenharia de Software pela PUC Minas (2011) e em Projeto de Aplicativos Móveis pelo IGTI (2015). Bacharel em Sistemas de Informação pela Universidade Presidente Antônio Carlos (2009). Atualmente Professor do Ensino Básico, Técnico e Tecnológico no IFSULDEMINAS - Câmpus Avançado Três Corações nas disciplinas de Linguagem de Programação, Análise e Desenvolvimento de Sistemas, Aplicativos Móveis. Experiência na área de desenvolvimento de sistemas, testes de software, processos e metodologias de desenvolvimento.",
+    "speaker": "Bruno Amarante Couto Rezende",
+    "image": "brunorezende.png",
+    "type": "minicurso"
+  },
+  {
+    "date": "30/08/2019",
+    "startTime": "07:00",
+    "endTime": "11:00",
+    "title": "Campeonato Counter Strike: GO",
+    "description": "",
+    "speaker": "",
+    "image": "csgo.jpeg",
+    "type": "campeonato"
+  },
+  {
+    "date": "30/08/2019",
+    "startTime": "07:00",
+    "endTime": "11:00",
+    "title": "Segurança de código aberto Firewall pfSense",
+    "description": "O pfSense é uma distribuição FreeBSD feita com base no projeto m0n0wall, uma distribuição de firewall poderoso e leve, contendo uma variedade de serviços de rede mais usadas na segurança computacional. Nesse minicurso será abordado desde as definições básicas para implantação do pfSense até o uso de modo básico, sendo um firewall ou roteador.",
+    "speaker": "Diógenes Ribeiro Babosa Soares",
+    "image": "csgo.jpeg",
+    "type": "campeonato"
+  },
+  {
+    "date": "30/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Como criar um Robô Investidor",
+    "description": "Minicurso elaborado com o fim de auxiliar na criação de robôs de cruzamento de médias móveis. Nele dispõe-se sintaxes da linguagem MQL5 e a criação de um robô trader, também chamado de robô investidor. Um robô investidor é um código implementado em alguma linguagem de programação, que recebe e processa os dados do mercado conforme regras pré-estabelecidas, respeitando cenários, indicadores, condições de entrada e saída e outros critérios usados para investir.",
+    "speaker": "Júlio Cézar Coutinho de Oliveira",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "30/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Solução de Problemas de Otimização da Produção Utilizando o Solver no Excel",
+    "description": "Minimizar custos, maximizar produção e qualidade. Estes são requisitos de inúmeros problemas que o setor produtivo se depara no dia a dia. Soluções ótimas que atendam requisitos e limitações de recursos são de grande interesse prático nas mais variadas áreas do conhecimento. Este minicurso visa apresentar a ferramenta Solver do Microsoft Excel para a solução de problemas de otimização passíveis de resolução por programação linear. Necessário computador pessoal contendo Office - Excel.",
+    "speaker": "Diego Rodrigues Andrade Simão",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "30/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Deep Learning: Redes Neurais Convolucionais para Classificação de Objetos",
+    "description": "Primeiramente o aluno aprenderá sobre a teoria das redes neurais convolucionais. Na segunda parte o aluno implementará passo a passo uma rede neural utilizando a base de dados MNIST para classificação de dígitos escritos a mão. E por fim, na terceira parte o aluno implementará uma rede neural convolucional para classificação de gatos e cachorros, o que dará todo o embasamento para o aluno utilizar suas próprias imagens na construção de sistemas personalizados para identificação de imagens.",
+    "speaker": "Bruno Alberto Soares Oliveira",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "30/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Processamento digital de Áudio - Básico",
+    "description": "Teoria básica sobre sinais de áudio. Técnicas básicas de processamento digital de sinais aplicadas a sinais de áudio (codificação, compressão, representação nos domínios do tempo e da frequência, extração de características).",
+    "speaker": "João Vítor Possamai de Menezes",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  },
+  {
+    "date": "30/08/2019",
+    "startTime": "13:00",
+    "endTime": "17:00",
+    "title": "Instalações / Manutenção elétrica, residencial, predial, industrial",
+    "description": "Minicurso explicativo sobre como fazer, manter e reparar instalações elétricas de casas, prédios e industrias. A instalação elétrica compreende a implementação física dos componentes das ligações elétricas, a conexão entre a fonte geradora de energia elétrica e as cargas elétricas. Nas instalações elétricas em baixa tensão, a fonte geradora vem da concessionária e as cargas são os eletrodomésticas e eletroeletrônicos que conectamos nas tomadas.",
+    "speaker": "Cristian Vidal Coelho Alves",
+    "image": "minicurso.jpg",
+    "type": "minicurso"
+  }
+]

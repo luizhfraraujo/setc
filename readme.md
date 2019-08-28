@@ -6,6 +6,13 @@
 setc-api: Api criada em nestjs para funcinamento do sistema
 setc-app: Aplicativo criado em ionic
 
+## Ferramentas utilizadas
+
+[VSCode](https://code.visualstudio.com/)
+
+[NestJS](https://nestjs.com/)
+
+[Ionic](https://ionicframework.com/)
 
 ## Links Úteis
 
@@ -28,6 +35,10 @@ setc-app: Aplicativo criado em ionic
 [O que é Ionic?](https://www.treinaweb.com.br/blog/o-que-e-ionic/)
 
 ### Outros
+
+[JoshMorony - Tutoriais de NestJS, Ionic, Angular e outros. (Inglês)](https://www.joshmorony.com/blog)
+
+[Jorge Vergara - Tutoriais de Ionic + Firebase (Inglês)](https://javebratt.com/article/ionic-angular/)
 
 [SOLID, Shazam da Orientação a objetos? Parte - 1](https://medium.com/@thiago_chagas/solid-shazam-da-orienta%C3%A7%C3%A3o-a-objetos-62ef50b10da0)
 
